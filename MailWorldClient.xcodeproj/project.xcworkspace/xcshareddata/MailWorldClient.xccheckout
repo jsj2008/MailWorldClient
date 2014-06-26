@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2DD43FAE-9993-4050-80DD-DBF7071AC1E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MailWorldClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FB7DE0B-30E3-47F4-BA36-CF7CBBA21E47</key>
+		<string>ssh://code.csdn.net/liyoro/mailworldclient.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MailWorldClient.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FB7DE0B-30E3-47F4-BA36-CF7CBBA21E47</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://code.csdn.net/liyoro/mailworldclient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FB7DE0B-30E3-47F4-BA36-CF7CBBA21E47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FB7DE0B-30E3-47F4-BA36-CF7CBBA21E47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mailworldclient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

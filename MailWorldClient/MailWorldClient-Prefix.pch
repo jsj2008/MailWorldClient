@@ -1,0 +1,34 @@
+//
+// Prefix header for all source files of the 'MailWorldClient' target in the 'MailWorldClient' project
+//
+
+#import <Availability.h>
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+    #ifndef __IPHONE_4_0
+    #warning "This project uses features only available in iPhone SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <QuartzCore/QuartzCore.h>
+#endif
+#else
+    #ifdef __OBJC__
+        #import <SystemConfiguration/SystemConfiguration.h>
+        #import <CoreServices/CoreServices.h>
+        #import <QuartzCore/QuartzCore.h>
+    #endif
+#endif
+
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#   define DLog(...)
+#   define ELog(err)
+#endif
